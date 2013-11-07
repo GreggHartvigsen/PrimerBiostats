@@ -1,1 +1,10 @@
 This is a file in test
+
+L = 10
+F = matrix(0,nrow = L, ncol = L)
+
+torus = function(n) {  
+  return((((n-1) + L) %% L) + 1)
+}
+
+torus(-20)
